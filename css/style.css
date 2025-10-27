@@ -1,0 +1,62 @@
+/* Elements */
+
+footer {
+    margin-top: 1em;
+    padding: 1em;
+}
+
+/* Classes */
+
+.product-search .title {
+    background-color: rgb(63, 123, 253);
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+
+.triangle {
+    color: rgb(63, 123, 253);
+    position: absolute;
+    font-size: 1.5em;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.list {
+    margin-top: 1.5em;
+}
+
+.product-search .title h3 {
+    margin: 0;
+}
+
+.product-list .item {
+    max-height: 100px;
+    display: flex;
+    margin: 1em 0;
+}
+
+/* Product List Image */
+
+.product-list .item .image {
+    text-align: center;
+}
+
+.product-list .item .image img {
+    height: 100%;
+}
+
+/* Product List Payment */
+
+.product-list .item .payment {
+    text-align: right;
+}
+
+.product-list .item .payment .btn {
+    width: 100%;
+}
+
+.product-list .item .payment p {
+    margin: 0;
+}
