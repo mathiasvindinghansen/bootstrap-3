@@ -7,11 +7,14 @@ footer {
 
 /* Classes */
 
-.product-search .title {
-    background-color: rgb(63, 123, 253);
-    text-align: center;
-    color: white;
-    padding: 1em;
+.alpha {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.omega {
+    padding-right: 0;
+    margin-left: 0;
 }
 
 .triangle {
@@ -27,17 +30,35 @@ footer {
     margin-top: 1.5em;
 }
 
+/* Product Search */
+
+.product-search {
+    box-shadow: 0 0 12px #a0a0a0;
+}
+
+.product-search .list {
+    margin: 2em auto 0 auto;
+    width: 90%;
+}
+
+.product-search .title {
+    background-color: rgb(63, 123, 253);
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
+
 .product-search .title h3 {
     margin: 0;
 }
+
+/* Product List */
 
 .product-list .item {
     max-height: 100px;
     display: flex;
     margin: 1em 0;
 }
-
-/* Product List Image */
 
 .product-list .item .image {
     text-align: center;
