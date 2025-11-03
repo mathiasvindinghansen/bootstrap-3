@@ -1,3 +1,3 @@
-$(function() {
-    console.log('script.js loaded')
-})
+function purchaseProduct() {
+    console.log('u bought something');
+}
