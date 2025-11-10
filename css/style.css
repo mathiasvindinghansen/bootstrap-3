@@ -81,3 +81,51 @@ footer {
 .product-list .item .payment p {
     margin: 0;
 }
+
+/* Cart */
+
+.cart {
+    background-color: #f8f8f8;
+    position: absolute;
+    width: 250px;
+    padding: 1em;
+    z-index: 100;
+    border: 1px solid #e7e7e7;
+    border-top: none;
+}
+
+.cart-items {
+    list-style: none;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 0;
+}
+
+.cart-item {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 0.5em;
+}
+
+.cart-item p {
+    margin: 0;
+}
+
+.cart-item:not(:last-child) {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.cart-item-inner {
+    display: flex;
+}
+
+.cart-item-remove {
+    padding: 0.2em;
+    font-size: 10px;
+    margin-right: 0.5em;
+}
+
+.cart-checkout {
+    margin-top: 1em;
+    width: 100%;
+}

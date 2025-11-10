@@ -9,6 +9,8 @@
 
         <script src="js/script.js"></script>
 
+        <link rel="shortcut icon" href="#">
+
         <title>Index</title>
     </head>
 
@@ -24,6 +26,18 @@
 
                     <div class="collapse navbar-collapse" id="site-navbar">
                         <ul class="nav navbar-nav navbar-right">
+                            <li id="cart">
+                                <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Indkøbskurv</a>
+
+                                <div class="cart hidden">
+                                    <h4><span class="glyphicon glyphicon-shopping-cart"></span> Din indkøbskurv</h4>
+
+                                    <ul class="cart-items"></ul>
+
+                                    <a href="#" class="btn btn-primary cart-checkout">Gå til kassen</a>
+                                </div>
+                            </li>
+
                             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>
