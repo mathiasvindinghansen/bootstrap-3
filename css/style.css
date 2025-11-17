@@ -32,23 +32,23 @@ footer {
 
 /* Product Search */
 
-.product-search {
+.product-categories {
     box-shadow: 0 0 12px #a0a0a0;
 }
 
-.product-search .list {
+.product-categories .list {
     margin: 2em auto 1em auto;
     width: 90%;
 }
 
-.product-search .title {
+.product-categories .title {
     background-color: rgb(63, 123, 253);
     text-align: center;
     color: white;
     padding: 1em;
 }
 
-.product-search .title h3 {
+.product-categories .title h3 {
     margin: 0;
 }
 

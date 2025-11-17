@@ -9,15 +9,15 @@ function removeProduct(productElement) {
 $(function() {
     for ($i = 0; $i < 10; $i++) {
         $.get('ajax/product.html', function(data) {
-            $(data).appendTo('.product-list');
+            $(data).appendTo('#product-list');
         });
 
         $.get('ajax/list-item.html', function(data) {
-            $(data).appendTo('.product-search .list');
+            $(data).appendTo('#product-categories');
         });
 
         $.get('ajax/cart-item.html', function(data) {
-            $(data).appendTo('.cart-items');
+            $(data).appendTo('#cart-items');
         });
     }
 
